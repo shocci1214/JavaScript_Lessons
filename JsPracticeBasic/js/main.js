@@ -1,19 +1,19 @@
 'use strict';
 
-function showAd(){
+function showAd(message = 'AD'){
     console.log('--------');
-    console.log('-- AD --');
+    console.log(`-- ${message} --`);
     console.log('--------');
 }
 
 
 
 console.log('Tom is great!');
-showAd();
+showAd('Header AD');
 console.log('Bob is great!');
 showAd();
 console.log('Steve is great!');
-showAd();
+showAd('Footer AD');
 
 // for(let i = 1; i <= 10; i++){
 //     if(i % 3 === 0){
