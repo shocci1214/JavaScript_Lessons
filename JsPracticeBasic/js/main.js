@@ -1,19 +1,30 @@
 'use strict';
 
-function showAd(message = 'AD'){
-    console.log('--------');
-    console.log(`-- ${message} --`);
-    console.log('--------');
+
+function sum(a, b, c){
+    // console.log(a + b + c);
+    return a + b + c
 }
 
+// sum(1, 2, 3);
+// sum(3, 4, 5);
+const total = sum(1,2,3) + sum(3,4,5);
+console.log(total);
+
+// function showAd(message = 'AD'){
+//     console.log('--------');
+//     console.log(`-- ${message} --`);
+//     console.log('--------');
+// }
 
 
-console.log('Tom is great!');
-showAd('Header AD');
-console.log('Bob is great!');
-showAd();
-console.log('Steve is great!');
-showAd('Footer AD');
+
+// console.log('Tom is great!');
+// showAd('Header AD');
+// console.log('Bob is great!');
+// showAd();
+// console.log('Steve is great!');
+// showAd('Footer AD');
 
 // for(let i = 1; i <= 10; i++){
 //     if(i % 3 === 0){
