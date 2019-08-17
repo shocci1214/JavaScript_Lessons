@@ -1,11 +1,26 @@
 'use strict';
 
-for(let i = 1; i <= 10; i++){
-    if(i % 3 === 0){
-        break;
-    }
-    console.log(i);
+function showAd(){
+    console.log('--------');
+    console.log('-- AD --');
+    console.log('--------');
 }
+
+
+
+console.log('Tom is great!');
+showAd();
+console.log('Bob is great!');
+showAd();
+console.log('Steve is great!');
+showAd();
+
+// for(let i = 1; i <= 10; i++){
+//     if(i % 3 === 0){
+//         break;
+//     }
+//     console.log(i);
+// }
 // for(let i = 1; i <= 10; i++){
 //     if(i % 3 === 0){
 //         continue;
